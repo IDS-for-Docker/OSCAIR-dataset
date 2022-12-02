@@ -1,0 +1,909 @@
+evt_time,syscall_type,container_mounts,proc_args,proc_nthreads,proc_nchilds,proc_fdopencount,proc_vmsize,evt_args
+23:54:48.937583914,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:48.937680581,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:49.438383630,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:49.438419025,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:49.454812567,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454845447,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454851027,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454853322,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454861627,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454870092,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454873859,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454875282,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454877726,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454906809,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454909374,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454910636,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454912359,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454915144,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454917308,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454918551,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454920274,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454922818,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454924972,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454926194,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454927837,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454930352,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454932506,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454933728,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454935371,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454937906,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454940040,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454941282,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454942925,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454945440,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454947583,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454948816,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454950469,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454953053,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454955197,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454956430,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454958083,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454960597,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454962741,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454963963,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454965616,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454968131,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454970265,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454971487,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454973130,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454975645,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454977789,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454979011,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454980654,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454983138,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454985292,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454986504,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454988157,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454990662,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454992786,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.454994018,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.454995661,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.454998166,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455000280,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455001502,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455003155,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455005659,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455007793,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455009005,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455010669,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455013163,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455015277,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455016489,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455018132,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455020647,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455022771,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455023993,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455025636,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455028130,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455030264,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455031486,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455033139,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455035634,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455037748,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455038970,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455040613,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455043118,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455045242,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455046464,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455048117,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455050601,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455052725,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455053947,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455055600,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455058105,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455060229,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455061451,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455063084,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455065589,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455067713,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455068925,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455070578,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455073082,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455075206,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455076428,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455078071,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455080576,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455082690,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455083912,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455085555,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455088060,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455090173,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455091396,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455093029,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455095533,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455097667,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455098879,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455100522,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455103017,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455105141,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455106353,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455107996,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455110501,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455112614,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455113837,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455115480,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455117974,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455120098,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455121310,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455122953,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455125458,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455127572,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455128784,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455130427,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455132931,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455135055,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455136278,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455137921,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455140435,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455142549,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455143771,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455145414,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455147899,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455150043,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455151265,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455152918,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455155422,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455157546,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455158769,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455160422,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455162926,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455165040,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455166252,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455167905,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455170400,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455172524,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455173746,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455175389,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455177883,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455180007,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455181219,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455182872,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455185387,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455187501,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455188723,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455190366,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455192901,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455195025,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455196237,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455197880,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455200384,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455202498,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455203721,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455205364,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455207858,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455209982,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455211204,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455212847,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455215342,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455217466,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455218678,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455220321,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455222815,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455224939,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455226161,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455227804,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455230299,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455232423,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455233645,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455235278,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455237783,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455239886,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455241109,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455242762,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455245276,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455247400,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455248622,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455250265,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455252750,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455254884,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455256096,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455257749,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455260244,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455262367,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455263590,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455265233,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455267717,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455269841,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455271063,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455272706,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455275201,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455277315,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455278547,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455280190,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455282695,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455284828,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455286051,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455287704,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455290178,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455292292,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455293524,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455295177,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455297662,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455299776,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455301008,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455302661,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455305155,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455307279,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455308512,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455310145,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455312629,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455314743,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455315955,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455317608,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455320113,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455322237,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455323449,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455325082,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455327576,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455329690,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455330912,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455332545,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455335040,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455337164,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455338386,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455340029,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455342534,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455344647,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455345860,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455347503,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455349997,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455352101,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455353313,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455354956,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455357461,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455359585,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455360827,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455362470,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455364975,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455367108,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455368321,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455369964,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455372468,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455374602,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455375814,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455377467,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455379952,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455382066,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455383298,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455384951,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455387435,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455389559,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455390782,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455392425,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455394919,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455397053,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455398275,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455399918,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455402423,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455404537,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455405749,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455407402,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455409896,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455412010,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455413233,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455414876,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455417380,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455419504,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455420716,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455422359,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455424864,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455426978,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455428190,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455429823,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455432317,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455434451,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455435663,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455437306,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455439811,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455441925,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455443147,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455444790,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455447285,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455449398,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455450621,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455452264,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455454768,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455456892,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455458104,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455459747,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455462242,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455464366,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455465578,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455467221,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455469726,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455471849,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455473072,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455474715,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455477209,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455479323,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455480555,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455482198,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455484723,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455486837,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455488059,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455489712,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455492207,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455494320,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455495543,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455497186,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455499680,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455501794,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455503006,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455504649,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455507154,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455509278,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455510490,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455512133,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455514637,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455516751,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455517974,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455519617,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455522101,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455524215,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455525447,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455527090,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455529585,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455531709,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455532921,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455534564,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455537058,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455539172,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455540384,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455542027,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455544532,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455546656,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455547868,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455549511,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455552006,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455554119,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455555332,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455556975,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455559469,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455561583,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455562805,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455564458,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455566973,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455569107,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455570329,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455571982,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455574487,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455576600,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455577833,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455579486,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455581980,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455584104,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455585336,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455586989,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455589474,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455591598,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455592820,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455594473,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455596958,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455599071,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455600304,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455601957,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455604451,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455606575,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455607797,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455609450,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455611935,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455614049,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455615271,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455616924,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455619398,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455621532,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455622755,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455624398,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455626882,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455628996,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455630228,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455631881,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455634366,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455636480,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455637702,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455639355,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455641839,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455643963,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455645185,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455646849,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455649333,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455651467,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455652699,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455654352,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455656847,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455658971,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455660183,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455661836,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455664320,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455666434,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455667656,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455669299,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455671834,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455673948,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455675170,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455676813,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455679318,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455681432,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455682654,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455684307,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455686811,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455688925,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455690147,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455691800,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455694295,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455696429,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455697651,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455699294,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455701779,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455703893,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455705125,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455706768,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455709252,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455711376,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455712598,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455714241,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455716736,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455718860,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455720082,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455721725,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455724270,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455726414,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455727646,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455729279,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455731773,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455733907,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455735119,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455736772,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455739267,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455741391,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455742613,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455744256,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455746761,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455748875,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455750097,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455751750,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455754244,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455756368,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455757590,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455759233,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455761728,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455763842,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455765074,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455766727,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455769212,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455771336,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455772558,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455774201,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455776705,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455778819,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455780051,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455781694,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455784199,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455786323,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455787535,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455789188,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455791693,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455793806,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455795039,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455796692,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455799176,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455801300,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455802532,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455804175,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455806670,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455808794,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455810016,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455811669,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455814154,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455816267,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455817490,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455819133,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455821637,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455823761,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455824983,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455826636,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455829131,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455831245,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455832467,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455834100,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455836594,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455838718,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455839941,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455841584,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455844068,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455846192,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455847404,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455849047,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455851542,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455853666,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455854878,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455856521,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455859005,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455861119,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455862341,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455863984,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455866489,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455868603,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455869835,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455871478,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455873983,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455876097,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455877319,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455878962,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455881456,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455883590,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455884802,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455886445,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455888940,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455891064,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455892286,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455893929,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455896414,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455898527,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455899750,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455901393,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455903877,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455906001,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455907223,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455908866,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455911381,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455913515,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455914737,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455916390,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455918875,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455920998,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455922221,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455923864,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455926358,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455928482,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455929694,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455931337,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455933832,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455935946,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455937168,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455938811,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455941285,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455943409,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455944631,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455946285,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455948779,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455950893,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455952115,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455953748,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455956233,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455958367,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455959589,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455961222,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455963746,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455965870,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455967082,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455968725,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455971220,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455973344,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455974566,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455976209,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455978694,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455980817,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455982040,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455983683,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455986187,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455988301,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455989513,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455991156,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.455993651,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455995775,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:49.455996997,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1)
+23:54:49.455998630,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:49.456003579,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+23:54:49.456061094,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=........q..c....B....................... !#$%&'()*+
+23:54:49.456063528,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:49.456068037,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..T ...@.[.................q..c....B....................... !#$%&'()*+
+23:54:49.456083054,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[24878]) size=57
+23:54:49.456131560,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.049 ms.
+23:54:49.456137330,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:49.456196413,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,res=57 data=64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.049 ms.
+23:54:49.456207033,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,fd=5(<p>pipe:[24878]) size=8029
+23:54:49.939059355,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:49.939093036,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:50.440036468,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:50.440103641,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:50.454690769,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454700036,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454703242,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454704644,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454710265,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454712298,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454714052,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454714993,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454716225,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454718079,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454719692,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454720593,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454721816,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454723739,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454725322,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454726224,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454727446,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454729299,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454730892,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454731794,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454733016,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454734869,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454736462,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454737364,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454738586,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454740420,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454742012,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454742914,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454744136,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454745980,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454747573,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454748474,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454749697,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454751540,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454753133,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454754044,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454755267,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454757100,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454758703,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454759715,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454761077,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454763151,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454764924,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454765936,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454767249,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454769102,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454770705,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454771616,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454772849,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454774702,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454776465,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454777497,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454778890,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454780964,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454782747,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454783699,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454784941,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454786824,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454788437,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454789359,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454790711,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454792775,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454794558,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454795570,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454796933,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454798866,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454800469,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454801381,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454802613,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454804466,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454806079,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454806991,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454808223,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454810087,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454811690,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454812601,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454813843,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454815707,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454817310,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454818231,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454819464,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454821327,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454822930,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454823852,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454825094,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454826947,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454828540,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454829452,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454830674,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454832538,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454834181,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454835092,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454836324,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454838178,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454839781,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454840682,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454841915,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454843768,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454845361,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454846283,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454847515,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454849368,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454850971,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454851893,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454853125,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454854968,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454856662,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454857573,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454858795,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454860649,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454862242,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454863163,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454864386,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454866239,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454867822,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454868744,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454869966,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454871829,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454873422,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454874334,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454875566,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454877419,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454879012,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454879934,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454881156,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454883010,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454884613,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454885524,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454886746,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454888610,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454890203,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454891124,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454892347,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454894200,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454895793,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454896705,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454897927,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454899790,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454901383,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454902295,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454903517,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454905390,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454907003,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454907915,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454909137,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454911001,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454912604,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454913515,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454914737,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454916591,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454918194,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454919105,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454920328,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454922181,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454923794,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454924696,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454925928,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454927801,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454929404,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454930316,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454931548,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454933401,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454935004,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454935916,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454937148,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454939002,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454940605,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454941516,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454942738,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454944592,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454946205,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454947116,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454948349,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454950202,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454951805,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454952707,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454953939,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454955792,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454957395,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454958317,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454959539,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454961393,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454962995,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454963907,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454965139,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454966993,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454968596,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454969507,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454970740,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454972613,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454974216,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454975138,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454976360,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454978223,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454979816,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454980738,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454981970,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454983813,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454985416,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454986328,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454987570,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454989424,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454991017,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454991938,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454993170,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.454995024,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454996627,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.454997538,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.454998781,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.455000644,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.455002237,sched_yield,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:50.455003149,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.455004391,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:50.455007617,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+23:54:50.455051136,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=........r..c....^....................... !#$%&'()*+
+23:54:50.455052990,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.455056085,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..T!w..@.[0................r..c....^....................... !#$%&'()*+
+23:54:50.455067817,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[24878]) size=57
+23:54:50.455079267,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.038 ms.
+23:54:50.455087823,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,res=57 data=64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.038 ms.
+23:54:50.455094896,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,fd=5(<p>pipe:[24878]) size=7972
+23:54:50.455103081,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:50.940828131,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:50.940874253,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:51.444117591,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,res=0 fds=
+23:54:51.444950472,poll,/:/host:rw:true:rslave,app.py,2,1,6,149740,fds=3:41 timeout=500
+23:54:51.455839135,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+23:54:51.455854283,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+23:54:51.455915144,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=........s..c............................ !#$%&'()*+
+23:54:51.455924210,setitimer,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:51.455928508,setitimer,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:51.455930141,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+23:54:51.455935381,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..T!...@.Z.................s..c............................ !#$%&'()*+
+23:54:51.455950128,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[24878]) size=57
+23:54:51.456001019,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.054 ms.
+23:54:51.456006048,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[24878]) size=1
+23:54:51.456008663,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=1 data=.
+23:54:51.456022248,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[24878]) size=147
+23:54:51.456024192,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=147 data=--- 127.0.0.1 ping statistics ---.4 packets transmitted
+23:54:51.456026826,exit_group,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+23:54:51.456066283,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,res=205 data=64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.054 ms..--- 127.0.0.1 ping sta
+23:54:51.456075540,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,fd=5(<p>pipe:[24878]) size=7767
+23:54:51.458085050,wait4,/:/host:rw:true:rslave,-c ping -c 4 127.0.0.1,1,0,3,4504,
+23:54:51.458099580,exit_group,/:/host:rw:true:rslave,-c ping -c 4 127.0.0.1,1,0,3,4504,
+23:54:51.458138397,read,/:/host:rw:true:rslave,app.py,2,0,6,149740,res=0 data=NULL
+23:54:51.458228511,close,/:/host:rw:true:rslave,app.py,2,0,6,149740,fd=5(<p>pipe:[24878])
+23:54:51.458228512,close,/:/host:rw:true:rslave,app.py,2,0,6,149740,res=0
+23:54:51.458244484,wait4,/:/host:rw:true:rslave,app.py,2,0,5,149740,
+23:54:51.458264627,wait4,/:/host:rw:true:rslave,app.py,2,0,5,149740,
+23:54:51.458642454,mmap,/:/host:rw:true:rslave,app.py,2,0,5,149740,addr=0 length=262144 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0
+23:54:51.458648695,mmap,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=7FEB455CE000 vm_size=149996 vm_rss=25892 vm_swap=0
+23:54:51.458924659,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,149996,addr=7FEB40021000 length=8192 prot=3(PROT_READ|PROT_WRITE)
+23:54:51.458928445,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=0
+23:54:51.458993113,open,/:/host:rw:true:rslave,app.py,2,0,5,149996,name=/etc/localtime flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+23:54:51.459007359,open,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=-2(ENOENT) name=/etc/localtime flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0
+23:54:51.459107923,write,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=2(<p>pipe:[21222]) size=79
+23:54:51.459174460,write,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=79 data=172.22.0.1 - - [01/Dec/2022 18:24:51] .[37mPOST /api/ping HTTP/1.1.[0m 200 -.
+23:54:51.459203603,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<4t>172.22.0.1:59026->172.22.0.3:8081) size=17 tuple=NULL
+23:54:51.459250038,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=17 data=HTTP/1.0 200 OK..
+23:54:51.459315076,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<4t>172.22.0.1:59026->172.22.0.3:8081) size=169 tuple=NULL
+23:54:51.459328210,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=169 data=Content-Type: text/html; charset=utf-8..Content-Length: 425..Access-Control-Allo
+23:54:51.459332969,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<4t>172.22.0.1:59026->172.22.0.3:8081) size=425 tuple=NULL
+23:54:51.459341014,sendto,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=425 data=PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data..64 bytes from 127.0.0.1: icmp_s
+23:54:51.459389151,shutdown,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<4t>172.22.0.1:59026->172.22.0.3:8081) how=1
+23:54:51.459412832,shutdown,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=0
+23:54:51.459422500,close,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<4t>172.22.0.1:59026->172.22.0.3:8081)
+23:54:51.459423161,close,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=0
+23:54:51.459475246,open,/:/host:rw:true:rslave,app.py,2,0,4,149996,name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+23:54:51.459486927,open,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<f>/etc/ld.so.cache) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=1070086
+23:54:51.459488220,fstat,/:/host:rw:true:rslave,app.py,2,0,5,149996,fd=4(<f>/etc/ld.so.cache)
+23:54:51.459491085,fstat,/:/host:rw:true:rslave,app.py,2,0,5,149996,res=0
+23:54:51.459492507,mmap,/:/host:rw:true:rslave,app.py,2,0,5,149996,addr=0 length=17314 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=4(<f>/etc/ld.so.cache) offset=0
+23:54:51.459497807,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150016,res=7FEB49D0B000 vm_size=150016 vm_rss=26004 vm_swap=0
+23:54:51.459498588,close,/:/host:rw:true:rslave,app.py,2,0,5,150016,fd=4(<f>/etc/ld.so.cache)
+23:54:51.459499129,close,/:/host:rw:true:rslave,app.py,2,0,5,150016,res=0
+23:54:51.459502035,access,/:/host:rw:true:rslave,app.py,2,0,4,150016,mode=0(F_OK)
+23:54:51.459506363,access,/:/host:rw:true:rslave,app.py,2,0,4,150016,res=-2(ENOENT) name=/etc/ld.so.nohwcap
+23:54:51.459509368,open,/:/host:rw:true:rslave,app.py,2,0,4,150016,name=/lib/x86_64-linux-gnu/libgcc_s.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+23:54:51.459534203,open,/:/host:rw:true:rslave,app.py,2,0,5,150016,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) name=/lib/x86_64-linux-gnu/libgcc_s.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=1059491
+23:54:51.459535165,read,/:/host:rw:true:rslave,app.py,2,0,5,150016,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) size=832
+23:54:51.459912779,read,/:/host:rw:true:rslave,app.py,2,0,5,150016,res=832 data=.ELF..............>.....p*......@.......`W..........@.8...@.....................
+23:54:51.459914712,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150016,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1)
+23:54:51.459917277,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150016,res=0
+23:54:51.459925432,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150016,addr=0 length=2185488 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) offset=0
+23:54:51.459930932,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152152,res=7FEB453B8000 vm_size=152152 vm_rss=26004 vm_swap=0
+23:54:51.459931733,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,152152,addr=7FEB453CE000 length=2093056 prot=0(PROT_NONE)
+23:54:51.459937704,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,152152,res=0
+23:54:51.459938465,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152152,addr=7FEB455CD000 length=4096 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) offset=86016
+23:54:51.459944096,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152152,res=7FEB455CD000 vm_size=152152 vm_rss=26024 vm_swap=0
+23:54:51.460266674,close,/:/host:rw:true:rslave,app.py,2,0,5,152152,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1)
+23:54:51.460267986,close,/:/host:rw:true:rslave,app.py,2,0,5,152152,res=0
+23:54:51.460338734,munmap,/:/host:rw:true:rslave,app.py,2,0,4,152152,addr=7FEB49D0B000 length=17314
+23:54:51.460344164,munmap,/:/host:rw:true:rslave,app.py,2,0,4,152132,res=0 vm_size=152132 vm_rss=26092 vm_swap=0
+23:54:51.460370351,futex,/:/host:rw:true:rslave,app.py,2,0,4,152132,addr=7FEB455CD680 op=129(FUTEX_PRIVATE_FLAG) val=2147483647
+23:54:51.460372006,futex,/:/host:rw:true:rslave,app.py,2,0,4,152132,res=0
+23:54:51.460970386,madvise,/:/host:rw:true:rslave,app.py,2,0,4,152132,
+23:54:51.460973351,madvise,/:/host:rw:true:rslave,app.py,2,0,4,152132,
+23:54:51.460974443,exit,/:/host:rw:true:rslave,app.py,2,0,4,152132,

@@ -1,0 +1,107 @@
+evt_time,syscall_type,container_mounts,proc_args,proc_nthreads,proc_nchilds,proc_fdopencount,proc_vmsize,evt_args
+19:34:13.827018847,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:13.827151078,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:14.327811817,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:14.327859263,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:14.331972436,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+19:34:14.332014402,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>0.0.0.0:1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+19:34:14.332114255,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=..........tc............................ !#$%&'()*+
+19:34:14.332117430,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+19:34:14.332124333,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..TB...@.9...................tc............................ !#$%&'()*+
+19:34:14.332144360,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[27093]) size=57
+19:34:14.332225784,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.093 ms.
+19:34:14.332260828,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+19:34:14.332289630,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=57 data=64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.093 ms.
+19:34:14.332297845,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,fd=5(<p>pipe:[27093]) size=8029
+19:34:14.829194413,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:14.829243853,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:15.330027026,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:15.330085984,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:15.331842149,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+19:34:15.331852358,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+19:34:15.331900686,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=..........tc....K....................... !#$%&'()*+
+19:34:15.331902619,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+19:34:15.331907087,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..TC...@.8...................tc....K....................... !#$%&'()*+
+19:34:15.331918208,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[27093]) size=57
+19:34:15.331959860,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.042 ms.
+19:34:15.331965400,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+19:34:15.332005979,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=57 data=64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.042 ms.
+19:34:15.332014986,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,fd=5(<p>pipe:[27093]) size=7972
+19:34:15.830724502,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:15.830760989,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:16.331735945,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,res=0 fds=
+19:34:16.331794251,poll,/:/host:rw:true:rslave,app.py,2,1,6,149744,fds=3:41 timeout=500
+19:34:16.332529006,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+19:34:16.332538263,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+19:34:16.332587302,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=..........tc............................ !#$%&'()*+
+19:34:16.332593664,setitimer,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+19:34:16.332596529,setitimer,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+19:34:16.332597641,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1)
+19:34:16.332601598,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=84 size=84 data=E..TD...@.8'..................tc............................ !#$%&'()*+
+19:34:16.332612799,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[27093]) size=57
+19:34:16.332658991,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=57 data=64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.044 ms.
+19:34:16.332662257,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[27093]) size=1
+19:34:16.332664411,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=1 data=.
+19:34:16.332675811,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=1(<p>pipe:[27093]) size=147
+19:34:16.332677234,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=58 data=64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.044 ms..
+19:34:16.332677234,write,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=147 data=--- 127.0.0.1 ping statistics ---.4 packets transmitted
+19:34:16.332679919,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,fd=5(<p>pipe:[27093]) size=7914
+19:34:16.332679919,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=147 data=--- 127.0.0.1 ping statistics ---.4 packets transmitted
+19:34:16.332679919,exit_group,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
+19:34:16.332679920,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,fd=5(<p>pipe:[27093]) size=7767
+19:34:16.334651433,wait4,/:/host:rw:true:rslave,-c ping -c 4 127.0.0.1,1,0,3,4504,
+19:34:16.334673464,exit_group,/:/host:rw:true:rslave,-c ping -c 4 127.0.0.1,1,0,3,4504,
+19:34:16.334789362,read,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=0 data=NULL
+19:34:16.334917817,close,/:/host:rw:true:rslave,app.py,2,0,6,149744,fd=5(<p>pipe:[27093])
+19:34:16.334920011,close,/:/host:rw:true:rslave,app.py,2,0,6,149744,res=0
+19:34:16.334947891,wait4,/:/host:rw:true:rslave,app.py,2,0,5,149744,
+19:34:16.334981643,wait4,/:/host:rw:true:rslave,app.py,2,0,5,149744,
+19:34:16.335605525,mmap,/:/host:rw:true:rslave,app.py,2,0,5,149744,addr=0 length=262144 prot=3(PROT_READ|PROT_WRITE) flags=10(MAP_PRIVATE|MAP_ANONYMOUS) fd=-1(EPERM) offset=0
+19:34:16.335613439,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=7F1DEF214000 vm_size=150000 vm_rss=25836 vm_swap=0
+19:34:16.336198358,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,150000,addr=7F1DE8021000 length=8192 prot=3(PROT_READ|PROT_WRITE)
+19:34:16.336203618,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=0
+19:34:16.336323446,open,/:/host:rw:true:rslave,app.py,2,0,5,150000,name=/etc/localtime flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+19:34:16.336342231,open,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=-2(ENOENT) name=/etc/localtime flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=0 ino=0
+19:34:16.336521968,write,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=2(<p>pipe:[27802]) size=79
+19:34:16.336559258,write,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=79 data=172.22.0.1 - - [16/Nov/2022 14:04:16] .[37mPOST /api/ping HTTP/1.1.[0m 200 -.
+19:34:16.336602415,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<4t>172.22.0.1:39330->172.22.0.3:8081) size=17 tuple=NULL
+19:34:16.336692880,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=17 data=HTTP/1.0 200 OK..
+19:34:16.336804794,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<4t>172.22.0.1:39330->172.22.0.3:8081) size=169 tuple=NULL
+19:34:16.336827876,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=169 data=Content-Type: text/html; charset=utf-8..Content-Length: 425..Access-Control-Allo
+19:34:16.336835370,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<4t>172.22.0.1:39330->172.22.0.3:8081) size=425 tuple=NULL
+19:34:16.336847602,sendto,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=425 data=PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data..64 bytes from 127.0.0.1: icmp_s
+19:34:16.336920686,shutdown,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<4t>172.22.0.1:39330->172.22.0.3:8081) how=1
+19:34:16.336937637,shutdown,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=0
+19:34:16.336945331,close,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<4t>172.22.0.1:39330->172.22.0.3:8081)
+19:34:16.336947344,close,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=0
+19:34:16.337009999,open,/:/host:rw:true:rslave,app.py,2,0,4,150000,name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+19:34:16.337024124,open,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<f>/etc/ld.so.cache) name=/etc/ld.so.cache flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=1070086
+19:34:16.337025968,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150000,fd=4(<f>/etc/ld.so.cache)
+19:34:16.337029384,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150000,res=0
+19:34:16.337031358,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150000,addr=0 length=17314 prot=1(PROT_READ) flags=2(MAP_PRIVATE) fd=4(<f>/etc/ld.so.cache) offset=0
+19:34:16.337037920,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150020,res=7F1DF3951000 vm_size=150020 vm_rss=25948 vm_swap=0
+19:34:16.337039032,close,/:/host:rw:true:rslave,app.py,2,0,5,150020,fd=4(<f>/etc/ld.so.cache)
+19:34:16.337039943,close,/:/host:rw:true:rslave,app.py,2,0,5,150020,res=0
+19:34:16.337044021,access,/:/host:rw:true:rslave,app.py,2,0,4,150020,mode=0(F_OK)
+19:34:16.337048719,access,/:/host:rw:true:rslave,app.py,2,0,4,150020,res=-2(ENOENT) name=/etc/ld.so.nohwcap
+19:34:16.337052306,open,/:/host:rw:true:rslave,app.py,2,0,4,150020,name=/lib/x86_64-linux-gnu/libgcc_s.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0
+19:34:16.337082150,open,/:/host:rw:true:rslave,app.py,2,0,5,150020,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) name=/lib/x86_64-linux-gnu/libgcc_s.so.1 flags=4097(O_RDONLY|O_CLOEXEC) mode=0 dev=801 ino=1059491
+19:34:16.337083924,read,/:/host:rw:true:rslave,app.py,2,0,5,150020,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) size=832
+19:34:16.337511165,read,/:/host:rw:true:rslave,app.py,2,0,5,150020,res=832 data=.ELF..............>.....p*......@.......`W..........@.8...@.....................
+19:34:16.337514251,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150020,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1)
+19:34:16.337517006,fstat,/:/host:rw:true:rslave,app.py,2,0,5,150020,res=0
+19:34:16.337527174,mmap,/:/host:rw:true:rslave,app.py,2,0,5,150020,addr=0 length=2185488 prot=5(PROT_READ|PROT_EXEC) flags=1026(MAP_PRIVATE|MAP_DENYWRITE) fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) offset=0
+19:34:16.337534057,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152156,res=7F1DEEFFE000 vm_size=152156 vm_rss=25948 vm_swap=0
+19:34:16.337535369,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,152156,addr=7F1DEF014000 length=2093056 prot=0(PROT_NONE)
+19:34:16.337541541,mprotect,/:/host:rw:true:rslave,app.py,2,0,5,152156,res=0
+19:34:16.337542643,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152156,addr=7F1DEF213000 length=4096 prot=3(PROT_READ|PROT_WRITE) flags=1030(MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE) fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1) offset=86016
+19:34:16.337550397,mmap,/:/host:rw:true:rslave,app.py,2,0,5,152156,res=7F1DEF213000 vm_size=152156 vm_rss=25968 vm_swap=0
+19:34:16.337887490,close,/:/host:rw:true:rslave,app.py,2,0,5,152156,fd=4(<f>/lib/x86_64-linux-gnu/libgcc_s.so.1)
+19:34:16.337889063,close,/:/host:rw:true:rslave,app.py,2,0,5,152156,res=0
+19:34:16.337981930,munmap,/:/host:rw:true:rslave,app.py,2,0,4,152156,addr=7F1DF3951000 length=17314
+19:34:16.337991357,munmap,/:/host:rw:true:rslave,app.py,2,0,4,152136,res=0 vm_size=152136 vm_rss=26036 vm_swap=0
+19:34:16.338016322,futex,/:/host:rw:true:rslave,app.py,2,0,4,152136,addr=7F1DEF213680 op=129(FUTEX_PRIVATE_FLAG) val=2147483647
+19:34:16.338018596,futex,/:/host:rw:true:rslave,app.py,2,0,4,152136,res=0
+19:34:16.338655722,madvise,/:/host:rw:true:rslave,app.py,2,0,4,152136,
+19:34:16.338661713,madvise,/:/host:rw:true:rslave,app.py,2,0,4,152136,
+19:34:16.338662955,exit,/:/host:rw:true:rslave,app.py,2,0,4,152136,

@@ -1,0 +1,9 @@
+evt_time,syscall_type,container_mounts,proc_args,proc_nthreads,proc_nchilds,proc_fdopencount,proc_vmsize,evt_args
+03:46:34.483589148,poll,/:/host:rw:true:rslave,app.py,2,1,6,149736,res=0 fds=
+03:46:34.483641560,poll,/:/host:rw:true:rslave,app.py,2,1,6,149736,fds=3:41 timeout=500
+03:46:34.984236759,poll,/:/host:rw:true:rslave,app.py,2,1,6,149736,res=0 fds=
+03:46:34.985791068,poll,/:/host:rw:true:rslave,app.py,2,1,6,149736,fds=3:41 timeout=500
+03:46:34.989709289,recvmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=-11(EAGAIN) size=192 data=NULL tuple=NULL
+03:46:34.989836824,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,fd=3(<4r>127.0.0.1->127.0.0.1) size=64 tuple=0.0.0.0:1->127.0.0.1:0
+03:46:34.990475423,sendmsg,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,res=64 data=..Rx.....'.c............................ !#$%&'()*+
+03:46:34.990481083,setitimer,/:/host:rw:true:rslave,-c 4 127.0.0.1,1,0,4,6536,
